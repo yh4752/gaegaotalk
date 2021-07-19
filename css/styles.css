@@ -1,0 +1,47 @@
+@import "reset.css";
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "screens/profile-set.css";
+
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "DungGeunMo";
+}
+body {
+  background-color: var(--bg-color);
+  margin: 0px;
+  font-family: "DungGeunMo";
+}
+
+.main-screen {
+  padding: 0px 25px;
+}
+
+:root {
+  --bg-color: #fff8db;
+  --purple-color: #d3d1ff;
+  --red-color: #e29c9c;
+  --blue-color: #bdc5fc;
+  --main-color: #c7edd5;
+}

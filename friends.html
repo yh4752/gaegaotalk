@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends-Gaetalk</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>누나 안 보임</span>
+        <i class="fas fa-wifi"></i>
+        </svg>
+      </div>
+      <div class="status-bar__column">
+        <span>저녁 밥 30분 전</span>
+      </div>
+      <div class="status-bar__column">
+        <span>200% 배고픔&nbsp;</span>
+        <i class="fas fa-bone"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+        <span class="screen-header__title">칭구들</span>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+              ></span>
+        </div>
+    </header>
+
+    <main class="friends-screen">
+      <!-- <나의 프로필> -->
+      <div class="user-component">
+        <div class="user-component__column">
+          <div class="profile-setting">
+            <a class="prof__link" href="account_백설기.html">
+              <div class="profile__img-box-xl">
+                <img class="profile-img-xl" src="https://cdn.discordapp.com/attachments/862644219955904515/866632449839595530/b9bcf1090470fc2c.png" />
+              </div>
+              
+            </a>
+          </div>
+          
+          <div class="user-component__text">
+            <h4 class="user-component__title">백설기</h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <!-- <생일인 친구> -->
+      <div class="friends-screen__channel">
+        <div class="friends-screen_channel-header">
+          <span>생일인 친구</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column ">
+            <div class="profile__img-box pink">
+              <i class=" fas fa-birthday-cake"></i>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">친구의 생일을 확인해 봐!</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <채널> -->
+      <div class="friends-screen__channel">
+        <div class="friends-screen_channel-header">
+          <span>채널</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="profile__img-box pink">
+              <i class="far fa-smile-wink"></i>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">채널</h4>
+              
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <인간 친구들> -->
+      <div class="friends-screen__human">
+        <div class="friends-screen_human-header">
+          <span><i class="fas fa-caret-down"></i>&nbsp;패밀리</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+
+        <!-- <지원 누나> -->
+        <div class="user-component ">
+          <div class="user-component__column">
+            <a class="prof__link" href="account_지원누나.html">
+              <div class="profile__img-box">
+                <img class="profile-img" src="https://cdn.discordapp.com/attachments/862644219955904515/866649300317896734/1.png" />
+              </div>
+            </a>
+            <div class="user-component__text plus">
+              <span class="user-component__title user-component__title--not-bold">지원 누나</span>
+              <span class="user-component__status-message">아침 9시에 일어나 개 밥 줘</span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music-box">
+              <span>레트로봇-똥 밟았네&nbsp;</span>
+              <i class="fas fa-caret-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- <엄마> -->
+        <div class="user-component ">
+          <div class="user-component__column">
+            <a class="prof__link" href="account_엄마.html">
+              <div class="profile__img-box">
+                <img class="profile-img" src="https://cdn.discordapp.com/attachments/862644219955904515/866649301361754122/2.png" />
+              </div>
+            </a>
+            <div class="user-component__text plus">
+              <span class="user-component__title user-component__title--not-bold">엄마</span>
+              <span class="user-component__status-message">내 사랑~<i class="fas fa-heart"></i></span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music-box">
+              <span>포레스텔라-넬라 판타지아&nbsp;</span>
+              <i class="fas fa-caret-right"></i>
+            </div>
+          </div>
+        </div>
+      
+      
+      <!-- <아빠> -->
+      <div class="user-component ">
+        <div class="user-component__column">
+          <a class="prof__link" href="account_아빠.html">
+            <div class="profile__img-box">
+              <img class="profile-img" src="https://cdn.discordapp.com/attachments/862644219955904515/866649294094467112/3.png" />
+            </div>
+          </a>
+          <div class="user-component__text plus">
+            <span class="user-component__title user-component__title--not-bold">아빠</span>
+            <span class="user-component__status-message">바람이 멈추는 곳에서 즐기는 여유 ^^</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__music-box">
+            <span>Justin Bieber-Peaches&nbsp;</span>
+            <i class="fas fa-caret-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- <형아> -->
+      <div class="user-component ">
+        <div class="user-component__column">
+          <a class="prof__link" href="account_형아.html">
+            <div class="profile__img-box">
+              <img class="profile-img" src="https://cdn.discordapp.com/attachments/862644219955904515/866649295518957568/4.png" />
+            </div>
+          </a>
+          <div class="user-component__text plus">
+            <span class="user-component__title user-component__title--not-bold">형아</span>
+            <span class="user-component__status-message">제대가 안 보여요.</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__music-box">
+            <span>브라운 아이즈-벌써 일 년&nbsp;</span>
+            <i class="fas fa-caret-right"></i>
+          </div>
+        </div>
+      </div>
+
+    <!-- <인간 친구들> -->
+    <div class="friends-screen__human">
+      <div class="friends-screen_human-header">
+        <span><i class="fas fa-caret-down"></i>&nbsp;인간 칭구들</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
+
+     
+      <!-- <지민 누나> -->
+      <div class="user-component ">
+        <div class="user-component__column">
+          <a class="prof__link" href="account_지민누나.html">
+            <div class="profile__img-box small">
+              <img class="profile-img" src="https://cdn.discordapp.com/attachments/862644219955904515/866650725634932736/8.png" />
+            </div>  
+          </a>
+          <div class="user-component__text plus">
+            <span class="user-component__title user-component__title--not-bold">지민 누나</span>
+            <span class="user-component__status-message">꺄하아아앙</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__music-box">
+            <span>성시경-방랑자&nbsp;</span>
+            <i class="fas fa-caret-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- <경훈 형아> -->
+      <div class="user-component ">
+        <div class="user-component__column">
+          <a class="prof__link" href="account_경훈형아.html">
+            <div class="profile__img-box">
+              <img class="profile-img" src="https://cdn.discordapp.com/attachments/862644219955904515/866649298052448256/6.png" />
+            </div>
+          </a>
+          <div class="user-component__text plus">
+            <span class="user-component__title user-component__title--not-bold">경훈 형아</span>
+            <span class="user-component__status-message">나는 짱이다.</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__music-box">
+            <span>AKMU-HAPPENING&nbsp;</span>
+            <i class="fas fa-caret-right"></i>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- <용현 형아> -->
+      <div class="user-component ">
+        <div class="user-component__column">
+          <a class="prof__link" href="account_용현형아.html">
+            <div class="profile__img-box">
+              <img class="profile-img" src="https://cdn.discordapp.com/attachments/862644219955904515/866649296774103110/5.png" />
+            </div>
+          </a>
+          <div class="user-component__text plus">
+            <span class="user-component__title user-component__title--not-bold">용현 형아</span>
+            <span class="user-component__status-message">오늘도 헬스~</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__music-box">
+            <span>박재정-좋았는데&nbsp;</span>
+            <i class="fas fa-caret-right"></i>
+          </div>
+        </div>
+      </div>
+    <!-- <경비 아저씨> -->
+    <div class="user-component ">
+      <div class="user-component__column">
+        <a class="prof__link" href="account_경비아저씨.html">
+          <div class="profile__img-box">
+            <img class="profile-img" src="https://cdn.discordapp.com/attachments/862644219955904515/866649298984632350/7.png" />
+          </div>
+        </a>
+        
+        <div class="user-component__text plus">
+          <span class="user-component__title user-component__title--not-bold">경비 아저씨</span>
+          <span class="user-component__status-message">땡벌이여 ..</span>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <div class="user-component__music-box">
+          <span>임영웅-이제 나만 믿어요&nbsp;</span>
+          <i class="fas fa-caret-right"></i>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <동물 친구들> -->
+    <div class="friends-screen__human">
+      <div class="friends-screen_human-header">
+        <span><i class="fas fa-caret-down"></i>&nbsp;동물 칭구들</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
+
+     
+      <!-- <옆집 차돌이> -->
+      <div class="user-component ">
+        <div class="user-component__column">
+          <a class="prof__link" href="account_옆집차돌이.html">
+            <div class="profile__img-box">
+              <img class="profile-img" src="https://media.istockphoto.com/vectors/cute-shih-tzu-dog-sitting-and-smiling-cartoon-icon-vector-vector-id1272489352" />
+            </div>  
+          </a>
+          <div class="user-component__text plus">
+            <span class="user-component__title user-component__title--not-bold">옆집 차돌이</span>
+            <span class="user-component__status-message">나는 늠름한 멋쟁이 강아쥐!</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__music-box">
+            <span>WalWals-meongmeong&nbsp;</span>
+            <i class="fas fa-caret-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- <고약이> -->
+      <div class="user-component ">
+        <div class="user-component__column">
+          <a class="prof__link" href="account_고약이.html">
+            <div class="profile__img-box">
+              <img class="profile-img" src="https://image.utoimage.com/preview/cp861283/2018/12/201812006440_500.jpg" />
+            </div>
+          </a>
+          <div class="user-component__text plus">
+            <span class="user-component__title user-component__title--not-bold">고약이</span>
+            <span class="user-component__status-message">뭘 꼬라보냥</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__music-box">
+            <span>선우정아-고양이&nbsp;</span>
+            <i class="fas fa-caret-right"></i>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- <갈맹이> -->
+      <div class="user-component ">
+        <div class="user-component__column">
+          <a class="prof__link" href="account_갈맹이.html">
+            <div class="profile__img-box">
+              <img class="profile-img" src="https://cdn.discordapp.com/attachments/862644219955904515/866678823714029578/seagull.png" />
+            </div>
+          </a>
+          <div class="user-component__text plus">
+            <span class="user-component__title user-component__title--not-bold">갈맹이</span>
+            <span class="user-component__status-message">나는야 생각하는 갈맹이</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__music-box">
+            <span>박명수-바다의 왕자&nbsp;</span>
+            <i class="fas fa-caret-right"></i>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    </div>
+
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+              <a class="nav__link" href="friends.html">
+              <i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">10</span><i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <div class="nav__help_notification"></div>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <i class="fas fa-dog"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>으악! 잘 좀 조절해보라멍!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/d5fbb687f5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
